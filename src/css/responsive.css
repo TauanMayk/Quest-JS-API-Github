@@ -1,0 +1,86 @@
+@media (max-width: 1280px) {
+  .container {
+    flex-direction: column;
+    width: 90%;
+    border-radius: 20px;
+  }
+
+  .container header {
+    width: 100%;
+  }
+
+  .container header h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .container .profile-data .repositories ul {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    padding: 30% 0;
+  }
+
+  .container .data .info {
+    flex-direction: column;
+  }
+
+  .container .profile-data .info img {
+    margin-bottom: 20px;
+  }
+
+  .container .profile-data .info img,
+  .container .profile-data .info .data {
+    width: 100%;
+    padding: 0;
+  }
+
+  .container header #input-search,
+  .container header #btn-search {
+    width: 100%;
+  }
+}
+
+@media (max-width: 540px) {
+  main {
+    padding: 25% 0;
+  }
+
+  .container .profile-data .info img {
+    margin-bottom: 20px;
+  }
+
+  .container .profile-data .info img,
+  .container .profile-data .info .data {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media (max-width: 425px) {
+  main {
+    padding: 15% 0;
+  }
+
+  .container .profile-data .info img {
+    margin-bottom: 20px;
+  }
+
+  .container .profile-data .info img,
+  .container .profile-data .info .data {
+    width: 100%;
+    padding: 0;
+  }
+
+  .container .profile-data .info .data {
+    margin-bottom: 20px;
+  }
+
+  .container .profile-data .statistics {
+    padding: 0;
+  }
+}
